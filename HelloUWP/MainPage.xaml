@@ -8,7 +8,8 @@
     mc:Ignorable="d">
 
     <Grid Background="Yellow">
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="78" Margin="242,138,0,0" TextWrapping="Wrap" Text="Hello UWP!" VerticalAlignment="Top" Width="118" RenderTransformOrigin="5.779,2.062" SelectionChanged="textBlock1_SelectionChanged"/>
-        <Button Content="Click Me" x:Name="myButton" Margin="242,194,0,134" Click="myButton_Click"/>
+        <Viewbox Margin="170,30,191,57">
+            <Ellipse Height="5" Fill="Red" Width="10"></Ellipse>
+        </Viewbox>
     </Grid>
 </Page>
